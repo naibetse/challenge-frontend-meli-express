@@ -40,6 +40,13 @@ PORT=5001 (Change this number)
 
 ```
 
+Then...:warning:
+**Open the file:** challenge-frontend-meli-reactjs/src/services/items.js
+And replace the port on url by the port in .env file:
+```
+http://localhost:5001
+```
+
 * **Test the services (cURL):**
 Search Items:
 ```
